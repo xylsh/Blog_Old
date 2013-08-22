@@ -35,6 +35,15 @@ $(document).ready(function(){
     //**评论的代码也删掉哦***
     //***********************
 
+    //友言评论
+    $('#disqus_container .comment').on('click',function(){
+        $(this).html('加载中...');
+        //var disqus_shortname = 'beiyuu';
+        var that = this;
+        BYB.includeScript('http://v2.uyan.cc/code/uyan.js?uid=1830939',function(){$(that).remove()}); //这是一个加载js的函数
+    });
+    /////////
+
     $('.entry a').each(function(index,element){
         var href = $(this).attr('href');
         if(href){
