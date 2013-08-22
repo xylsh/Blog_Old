@@ -36,11 +36,12 @@ $(document).ready(function(){
     //***********************
 
     //友言评论
+    window.disqus_shortname = '1830939';
     $('#disqus_container .comment').on('click',function(){
         $(this).html('加载中...');
-        var disqus_shortname = '1830939';
+        //var disqus_shortname = '1830939';
         var that = this;
-        BYB.includeScript('http://v2.uyan.cc/code/uyan.js'+'?uid='disqus_shortname+,function(){$(that).remove()}); //这是一个加载js的函数
+        BYB.includeScript('http://v2.uyan.cc/code/uyan.js'+'?uid='+disqus_shortname,function(){$(that).remove()}); //这是一个加载js的函数
     });
     /////////
 
