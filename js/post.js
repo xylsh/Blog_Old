@@ -23,28 +23,6 @@ $(document).ready(function(){
 
     $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
 
-    //***********************
-    //**评论的代码也删掉哦***
-    /*window.disqus_shortname = 'beiyuu'; // required: replace example with your forum shortname
-    $('#disqus_container .comment').on('click',function(){
-        $(this).html('加载中...');
-        var that = this;
-        $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()});
-    });
-    */
-    //**评论的代码也删掉哦***
-    //***********************
-
-    //友言评论
-    window.disqus_shortname = '1830939';
-    $('#disqus_container .comment').on('click',function(){
-        $(this).html('加载中...');
-        //var disqus_shortname = '1830939';
-        var that = this;
-        BYB.includeScript('http://v2.uyan.cc/code/uyan.js'+'?uid='+disqus_shortname,function(){$(that).remove()}); //这是一个加载js的函数
-    });
-    /////////
-
     $('.entry a').each(function(index,element){
         var href = $(this).attr('href');
         if(href){
