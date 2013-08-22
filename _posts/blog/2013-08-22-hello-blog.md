@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello Bolg!
+author: 行云流水
 description: 决定开始写博客了。
 category: blog
 ---
