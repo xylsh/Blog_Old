@@ -106,10 +106,12 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .index-content #cateBar { display:inline-block; zoom:1; height:3px; background:red; position:relative; width:0; }
 
 /***************Wiki Style*****************/
+/*
 .wiki h2{cursor:pointer;}
 .wiki ul{margin-left:30px;margin-bottom:20px;list-style:disc}
 .wiki ul li{margin-bottom:5px;}
 .wiki ul ul{list-style:circle;margin-top:10px;margin-bottom:10px;}
+*/
 
 /***************contact style*************/
 #disqus_container {font-size:12px;}
@@ -173,4 +175,13 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     .index-content .cate-bar ,
     .index-content .artical-list,
     .index-content .artical-cate { width:85%; }
+}
+
+/** 页脚powered by **/
+.footer_poweredby{  
+    display:block;
+    color: #999;
+    font-size: 14px;
+    text-align:right;
+    margin:5px 10px;
 }
