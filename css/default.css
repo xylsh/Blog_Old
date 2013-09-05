@@ -187,3 +187,14 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     font-family:Palatino, georgia, "times new roman", "宋体";
     font-style:italic;
 }
+
+.home-contact-content {  
+    display:block;
+    margin:3px 5px;
+    font-size:13px;
+    text-align:center;
+    font-style:italic;
+}
+.home-contact-content a {
+    width:90px;
+}
