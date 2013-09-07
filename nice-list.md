@@ -7,15 +7,24 @@ title: 好的资料
     <ul class="hide">
         <li><a href="http://openhome.cc/Gossip/JUnit/">JUnit 學習筆記</a></li>
     </ul>
+
     <h2>版本控制</h2>
     <ul class="hide">
         <li><a href="http://rogerdudler.github.io/git-guide/index.zh.html">git - 简易指南</a></li>
+        <li><a href="http://gitref.org/zh/index.html">Git 参考手册</a></li>
         <li><a href="http://www.worldhello.net/gotgithub/index.html">GotGitHub</a></li>
     </ul>
+
+    <h2>Web 开发</h2>
+    <ul class="hide">
+        <li><a href="http://www.w3school.com.cn/">w3school 在线教程</a></li>
+    </ul>
+
     <h2>正则表达式</h2>
     <ul class="hide">
         <li><a href="http://deerchao.net/tutorials/regex/regex.htm">正则表达式30分钟入门教程</a></li>
     </ul>
+
     <h2>有创意的网站</h2>
     <ul class="hide">
         <li><a href="http://lovejiani.com/">不忘初心，方得始终。</a></li>
