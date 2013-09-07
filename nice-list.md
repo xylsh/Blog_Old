@@ -9,6 +9,7 @@ title: 好的资料
     </ul>
     <h2>版本控制</h2>
     <ul class="hide">
+        <li><a href="http://rogerdudler.github.io/git-guide/index.zh.html">git - 简易指南</a></li>
         <li><a href="http://www.worldhello.net/gotgithub/index.html">GotGitHub</a></li>
     </ul>
     <h2>正则表达式</h2>
