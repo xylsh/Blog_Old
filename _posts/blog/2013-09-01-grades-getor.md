@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GradesGetor: 学院成绩查询应用
+title: GradesGetor:学院成绩查询应用
 description: 受够了学院的URP系统？GradesGetor帮助童鞋们从移动终端快速方便的查询本学期成绩!
 category: blog
 ---
