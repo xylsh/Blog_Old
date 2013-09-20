@@ -37,7 +37,7 @@ category: blog
 
 首先，用HTTP数据分析工具抓取分析浏览器与URP的通信，我用的是Google Chrome自带的分析调试工具，你也可以用自己喜欢的别的同类工具，eg:HTTP Analyzer。同时，结合查看网页源码。
 
-经分析发现，URP登陆表单通过POST方式提交参数，参数名为`zjh`和`mm`。其中，`zjh`值为账号名，`mm`参数值为账号密码。另外，URP依靠设置的名为`JSSESIONID`的Cookie来标记用户，所以登陆过后，保存在本地的`JSESSIONID`就像通行证，可以向其请求获得本学期成绩。只要向显示成绩的url发送请求即可获得显示成绩的网页代码。
+经分析发现，URP登陆表单通过POST方式提交参数，参数名为`zjh`和`mm`。其中，`zjh`值为账号名，`mm`参数值为账号密码。另外，URP依靠设置的名为`JSSESIONID`的Cookie来保持与用户的会话(Session)，所以登陆过后，保存在本地的`JSESSIONID`就像通行证，可以向其请求获得本学期成绩。只要向显示成绩的url发送请求即可获得显示成绩的网页代码。
 
 那么，如何解析获得到的包含了成绩数据的网页代码呢？
 
@@ -59,23 +59,25 @@ category: blog
 
 ###输入HTML
 
-Jsoup解析HTML字符串
+Jsoup有好几种方式输入HTML。
+
+1.Jsoup解析HTML字符串
 
     String html = "<html><head><title>First parse</title></head>"  + "<body><p>Parsed HTML into a doc.</p></body></html>";
     Document doc = Jsoup.parse(html);
 
-Jsoup解析body片段
+2.Jsoup解析body片段
 
     String html = "<div><p>Lorem ipsum.</p>";
     Document doc = Jsoup.parseBodyFragment(html);
     Element body = doc.body();
 
-Jsoup从URL加载Document
+3.Jsoup从URL加载Document
 
     Document doc = Jsoup.connect("http://example.com/").get();
     String title = doc.title();
 
-Jsoup从文件加载Document
+4.Jsoup从文件加载Document
 
     File input = new File("/tmp/input.html");
     Document doc = Jsoup.parse(input, "UTF-8", "http://example.com/");
@@ -94,6 +96,8 @@ Jsoup从文件加载Document
         String linkText = link.text(); 
     }
 
+其中，`Jsoup.parse()`的第3个参数是`baseUri`，用于得到HTML中相对路径的完整路径。
+
 ###更多
 
 想了解更多关于Jsoup的信息，可以访问[Jsoup官网][Jsoup]和[Jsoup Cookbook(中文版)][Jsoup Cookbook(中文版)]。另外，这篇文章也介绍了一些使用方法：[jsoup抓取网页+详细讲解][jsoup抓取网页+详细讲解]。
@@ -104,7 +108,7 @@ Jsoup从文件加载Document
 
 Enjoy~
 
-感兴趣？[GradesGetor]()已经在Github开源，来使它Greater吧！
+感兴趣？[GradesGetor]()已经在Github开源，来使它更棒吧！
 
 ***
 
