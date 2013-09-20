@@ -3,6 +3,12 @@ layout: page
 title: 好的资料
 ---
 <div class="wiki">
+
+    <h2>Java相关</h2>
+    <ul class="hide">
+        <li><a href="http://www.open-open.com/jsoup/">Jsoup Cookbook</a></li>
+    <ul>
+    
     <h2>软件测试</h2>
     <ul class="hide">
         <li><a href="http://openhome.cc/Gossip/JUnit/">JUnit 學習筆記</a></li>
