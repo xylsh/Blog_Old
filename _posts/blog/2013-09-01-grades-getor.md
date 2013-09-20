@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GradesGetor:学院成绩查询应用
-description: 受够了学院的URP系统？GradesGetor帮助童鞋们从移动终端快速方便的查询本学期成绩!
+description: 受够了学院的URP系统？GradesGetor帮助童鞋们从移动终端快速方便的查询本学期成绩！
 category: blog
 ---
 
@@ -49,6 +49,8 @@ category: blog
 
 > Jsoup is a Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods.
 
+[Jsoup][Jsoup]能够：
+
 >- scrape and parse HTML from a URL, file, or string
 >- find and extract data, using DOM traversal or CSS selectors
 >- manipulate the HTML elements, attributes, and text
@@ -57,40 +59,31 @@ category: blog
 
 ###输入HTML
 
-####Jsoup解析HTML字符串
+Jsoup解析HTML字符串
 
-``` java
     String html = "<html><head><title>First parse</title></head>"  + "<body><p>Parsed HTML into a doc.</p></body></html>";
     Document doc = Jsoup.parse(html);
-```
 
-####Jsoup解析body片段
+Jsoup解析body片段
 
-``` java
     String html = "<div><p>Lorem ipsum.</p>";
     Document doc = Jsoup.parseBodyFragment(html);
     Element body = doc.body();
-```
 
-####Jsoup从URL加载Document
+Jsoup从URL加载Document
 
-```java
     Document doc = Jsoup.connect("http://example.com/").get();
     String title = doc.title();
-```
 
-####Jsoup从文件加载Document
+Jsoup从文件加载Document
 
-```java
     File input = new File("/tmp/input.html");
     Document doc = Jsoup.parse(input, "UTF-8", "http://example.com/");
-```
 
 ###解析网页
 
 这是解析网页的一个例子：
 
-```java
     File input = new File("D:/test.html"); 
     Document doc = Jsoup.parse(input, "UTF-8", "http://example.com/"); 
 
@@ -100,7 +93,6 @@ category: blog
         String linkHref = link.attr("href"); 
         String linkText = link.text(); 
     }
-```
 
 ###更多
 
@@ -108,11 +100,13 @@ category: blog
 
 ##结语
 
-[GradesGetor][GradesGetor]已经部署在了Red Hat的 [OpenShift][https://www.openshift.com/] 云平台，欢迎使用和反馈:)。
+[GradesGetor][GradesGetor]已经部署在了Red Hat的 [OpenShift](https://www.openshift.com/) 云平台，欢迎使用和反馈:)。
 
 Enjoy~
 
 感兴趣？[GradesGetor]()已经在Github开源，来使它Greater吧！
+
+***
 
 参考资料：
 
