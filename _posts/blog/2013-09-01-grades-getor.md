@@ -108,7 +108,7 @@ Jsoup有好几种方式输入HTML。
 
 Enjoy~
 
-感兴趣？[GradesGetor]()已经在Github开源，来使它更棒吧！
+感兴趣？[GradesGetor](https://github.com/xylsh/GradesGetor)已经在Github开源，来使它更棒吧！
 
 ***
 
