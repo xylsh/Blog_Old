@@ -21,9 +21,11 @@ title: 好的资料
         <li><a href="http://www.worldhello.net/gotgithub/index.html">GotGitHub</a></li>
     </ul>
 
-    <h2>Web 开发</h2>
+    <h2>Web</h2>
     <ul class="hide">
         <li><a href="http://www.w3school.com.cn/">w3school 在线教程</a></li>
+        <li><a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers">Liquid for Designers</a></li>
+        <li><a href="http://chrt.github.io/posts/liquid-for-designers-in-chinese/">Liquid for Designers[翻译]</a></li>
     </ul>
 
     <h2>正则表达式</h2>
