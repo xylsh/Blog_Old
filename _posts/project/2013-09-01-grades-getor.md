@@ -65,24 +65,28 @@ Jsoup有好几种方式输入HTML。
 
 1.Jsoup解析HTML字符串
 
-    String html = "<html><head><title>First parse</title></head>"  + "<body><p>Parsed HTML into a doc.</p></body></html>";
-    Document doc = Jsoup.parse(html);
+    <pre>
+    String html = "&lt;html&gt;&lt;head&gt;&lt;title&gt;First parse&lt;/title&gt;&lt;/head&gt;"  + "&lt;body&gt;&lt;p&gt;Parsed HTML into a doc.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;";
+    Document doc = Jsoup.parse(html);</pre>
 
 2.Jsoup解析body片段
 
-    String html = "<div><p>Lorem ipsum.</p>";
+    <pre>
+    String html = "&lt;div&gt;&lt;p&gt;Lorem ipsum.&lt;/p&gt;&lt;/div&gt;";
     Document doc = Jsoup.parseBodyFragment(html);
-    Element body = doc.body();
+    Element body = doc.body();</pre>
 
 3.Jsoup从URL加载Document
 
+    <pre>
     Document doc = Jsoup.connect("http://example.com/").get();
-    String title = doc.title();
+    String title = doc.title();</pre>
 
 4.Jsoup从文件加载Document
 
+    <pre>
     File input = new File("/tmp/input.html");
-    Document doc = Jsoup.parse(input, "UTF-8", "http://example.com/");
+    Document doc = Jsoup.parse(input, "UTF-8", "http://example.com/");</pre>
 
 ###解析网页
 
