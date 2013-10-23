@@ -10,10 +10,10 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : 行云流水's Bolg
-tagline: 好好学习，天天向上。
+tagline: 
 author :
   name : 行云流水
-  email : example@admin.com
+  email : 
   github : xylsh
   twitter : 
   feedburner : 
