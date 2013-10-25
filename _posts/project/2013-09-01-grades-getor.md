@@ -27,11 +27,14 @@ categories:
 
 [GradesGetor][GradesGetor]是一个可以帮助本院童鞋们在任何终端快捷方便的查询本学期成绩的Web应用。相较学院URP系统，它的优势在于:
 
-1. 对手机、平板等移动终端的访问非常友好。
-2. 更快捷方便， 传输的数据量更小 。输入账号密码即可直接显示本期成绩。
-3. 登陆成功率更高。因为应用不需要像浏览器一样清空历史记录或开“隐身模式”。
+1. 对手机、平板等移动终端的访问非常友好。  
+2. 更快捷方便， 传输的数据量更小 。输入账号密码即可直接显示本期成绩。  
+3. 登陆成功率更高。因为应用不需要像浏览器一样清空历史记录或开“隐身模式”。  
 
 [GradesGetor][GradesGetor] 采用了[Bootstrap3][Bootstrap]前端框架和[Struts2](http://struts.apache.org/development/2.x/) web应用框架。最近在学习[Struts2](http://struts.apache.org/development/2.x/)，其灵活、优雅的设计令人赞叹。[Bootstrap3][Bootstrap]不兼容[Bootsstrap2][Bootstrap]，其设计思路也从版本2时代的适应PC优先转变为了适应移动设备优先，非常适合用于快速构建令人赏心悦目的网站。
+
+<img src="/images/grades-getor/login.png" width="50%" height="50%" alt="login" />
+<img src="/images/grades-getor/table.png" width="50%" height="50%" alt="gradestable" />
 
 ##核心业务逻辑
 
