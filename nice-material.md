@@ -22,11 +22,16 @@ tagline: Supporting tagline
 ## Web
 
 [w3school 在线教程](http://www.w3school.com.cn/)  
+[Mozilla 开发者网络](https://developer.mozilla.org/zh-CN/)
 [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)[[翻译](http://yanshasha.com/2013/01/22/Liquid-for-Designers/)]
 
 ## Text
 
 [Markdown: Syntax](http://daringfireball.net/projects/markdown/syntax)
+
+## Algorithm
+
+[Step-by-step - UESTC Online Judge](http://acm.uestc.edu.cn/stepbystep.php)
 
 ## 正则表达式
 
