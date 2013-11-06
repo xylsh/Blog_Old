@@ -22,7 +22,7 @@ tagline: Supporting tagline
 ## Web
 
 [w3school 在线教程](http://www.w3school.com.cn/)  
-[Mozilla 开发者网络](https://developer.mozilla.org/zh-CN/)
+[Mozilla 开发者网络](https://developer.mozilla.org/zh-CN/)  
 [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)[[翻译](http://yanshasha.com/2013/01/22/Liquid-for-Designers/)]
 
 ## Text
