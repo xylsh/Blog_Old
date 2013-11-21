@@ -12,7 +12,7 @@ category: OJ Problem
 
 1.这是一道简单题。
 
-2.因为The input numbers are not greater than 2^32，所以要选long long类型.
+2.因为The input numbers are not greater than 2^32，而32位有符号整数(int)最大值为2^31-1,所以要选long long类型.
 
 ## 题解
 
