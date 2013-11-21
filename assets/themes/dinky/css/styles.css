@@ -410,3 +410,9 @@ footer {
     color:#444;
   }
 }
+
+/* 自定义添加的css */
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
