@@ -5,6 +5,7 @@ description: 受够了学院的URP系统？GradesGetor帮助童鞋们从移动�
 categories:
 - blog
 - project
+tag: [成绩查询]
 ---
 
 ##成绩查询

@@ -2,6 +2,7 @@
 layout: post
 title: "UVaOJ 138 Street Numbers"
 category: OJ Problem
+tag: [数论]
 ---
 
 ## 题目链接

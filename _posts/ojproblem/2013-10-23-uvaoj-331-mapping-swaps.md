@@ -2,6 +2,7 @@
 layout: post
 title: "UVaOJ 331 Mapping the Swaps"
 category: OJ Problem
+tag: [回溯]
 ---
 
 ## 题目链接
