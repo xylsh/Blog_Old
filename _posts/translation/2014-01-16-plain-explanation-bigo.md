@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 简明解释算法中的大O符号
+title: 简明解释算法中的大O符号[译]
 category: translation
 tags: [Big O,algorithm]
 ---
