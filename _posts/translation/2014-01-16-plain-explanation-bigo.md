@@ -5,7 +5,9 @@ category: translation
 tags: [Big O,algorithm]
 ---
 
-这篇文章翻译自[stackoverflow](http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o/487278#487278)上排名第一的回答，原提问是:[Plain English explanation of Big O](http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o).本文同时发表在了[伯乐在线](http://blog.jobbole.com/55184/)。以下是译文：
+这篇文章翻译自[stackoverflow](http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o/487278#487278)上排名第一的回答，原提问是:[Plain English explanation of Big O](http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o).本文同时发表在了[伯乐在线](http://blog.jobbole.com/55184/)。转载请注明原文作者及链接。
+
+以下是译文：
 
 <p><strong>伯乐在线导读：</strong>2009年1月28日Arec Barrwin在StackOverflow上提问，“有没有关于大O符号<b>（Big O notation）</b>的简单解释？尽量别用那么正式的定义，用尽可能简单的数学来解释”。在经过众多热心网友的修改更新后，最佳回复的得分已高达 3234 分，详细内容，请见下文。</p>
 <p>最佳回复所给出的大O符号的最简单定义如下：</p>
