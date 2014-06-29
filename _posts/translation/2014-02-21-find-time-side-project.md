@@ -5,7 +5,7 @@ category: translation
 tags: [side-project,time-manage]
 ---
 
-这篇文章翻译自[Justin Jackson](http://justinjackson.ca/where-do-you-find-the-time-for-side-projects/),原文作者是[Justin Jackson](http://justinjackson.ca/where-do-you-find-the-time-for-side-projects/)。本文同时发表在了[伯乐在线](http://blog.jobbole.com/59384/)。转载请注明原文作者及链接。
+这篇文章由[行云流水](http://xylsh.github.com/)翻译自[Justin Jackson](http://justinjackson.ca/where-do-you-find-the-time-for-side-projects/),原文作者是[Justin Jackson](http://justinjackson.ca/where-do-you-find-the-time-for-side-projects/)。本文同时发表在了[伯乐在线](http://blog.jobbole.com/59384/)。转载请注明原文作者及链接。
 
 以下是译文：
 

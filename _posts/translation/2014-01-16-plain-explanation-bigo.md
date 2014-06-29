@@ -5,7 +5,7 @@ category: translation
 tags: [Big O,algorithm]
 ---
 
-这篇文章翻译自[stackoverflow](http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o/487278#487278)上排名第一的回答，原提问是:[Plain English explanation of Big O](http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o).本文同时发表在了[伯乐在线](http://blog.jobbole.com/55184/)。转载请注明原文作者及链接。
+这篇文章由[行云流水](http://xylsh.github.com/)翻译自[stackoverflow](http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o/487278#487278)上排名第一的回答，原提问是:[Plain English explanation of Big O](http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o).本文同时发表在了[伯乐在线](http://blog.jobbole.com/55184/)。转载请注明原文作者及链接。
 
 以下是译文：
 
