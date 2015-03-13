@@ -1,0 +1,57 @@
+---
+layout: post
+title: "第三章：装饰者模式 - Head First 设计模式"
+categories:
+- 设计模式
+tag: [设计模式]
+---
+
+## 装饰者模式
+
+`装饰者模式`动态地将责任附加到对象上。若要扩展功能，装饰者提供了比继承更有弹性的替代方案。
+
+##### 模式类图：p91图
+
+![p91图](/images/design-pattern/p91.png)
+
+##### 典型应用：JAVA I/O,p100/101图
+
+![p100图](/images/design-pattern/p100.png)
+![p101图](/images/design-pattern/p101.png)
+
+编写自己的JAVA I/O装饰者：p102/103代码
+
+![p102图](/images/design-pattern/p102.png)
+![p103图](/images/design-pattern/p103.png)
+
+### 例子：星巴克咖啡的例子
+
+#### 不好的设计1：p80图(没有调料),p81图(包括调料)
+
+![p80图](/images/design-pattern/p80.png)
+![p81图](/images/design-pattern/p81.png)
+
+（PS：对于包括调料的情况，我个人的设想是，像第一章策略模式类似，在基类Beverage中增加调料对象集合）
+
+#### 不好的设计2：p83图
+
+![p83图](/images/design-pattern/p83.png)
+
+1. 如果调料价格改变，那么需要修改代码。
+2. 如果要增删调料，也需要修改很多代码。
+3. 如果某个调料A只适合某些类型的咖啡，那些不适合调料A的咖啡也会被迫继承调料A的setter/getter.
+4. 如果某个调料顾客要多份怎么办。
+
+#### 装饰者模式的设计：p92图
+
+![p92图](/images/design-pattern/p92.png)
+
+## 设计原则
+
+##### 设计原则5：类应该对扩展开放，对修改封闭。
+只需要把注意力集中在设计中最有可能改变的地方应用这条原则。
+
+
+
+
+
