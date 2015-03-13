@@ -45,7 +45,8 @@ tag: [设计模式]
 
 图同[观察者模式的设计2：java内置p64]
 
-代码示例：p67
+#### 代码示例：p67
+
 ![p67图](/images/design-pattern/p67.png)
 
 *PS：在调用notifyObservers(...)前要调用setChanged()来标记状态已改变。*
@@ -54,7 +55,6 @@ tag: [设计模式]
 
 1. Observable是一个类，导致子类不能再继承别的类了。
 2. Observable的setChanged()是protected修饰的，这意味着，你不能创建Observable实例组合到你自己的对象中(除非继承自Observable)。
-
 
 ## 设计原则
 

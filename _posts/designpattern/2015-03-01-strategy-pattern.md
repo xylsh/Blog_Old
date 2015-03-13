@@ -50,4 +50,6 @@ tag: [设计模式]
 
 ## 设计工具
 
-todo:uml箭头
+![p25图](/images/design-pattern/p25.png)
+
+
