@@ -2,7 +2,6 @@
 layout: post
 title: "第一章：策略模式 - Head First 设计模式"
 categories:
-- design-pattern
 - 设计模式
 tag: [设计模式]
 ---
@@ -15,14 +14,20 @@ tag: [设计模式]
 
 ##### 不好的设计1：p4图
 
-1. 如果要只给部分类型的鸭子增加fly()将会非常麻烦。
+![p4图](/images/design-pattern/p4.png)
+
+1. 如果想只给部分类型的鸭子增加fly()将会非常麻烦。
 
 ##### 不好的设计2：p6图
+
+![p6图](/images/design-pattern/p6.png)
 
 1. 如果多个类型的鸭子的fly()行为一样，那么将会出现很多重复代码。
 2. 如果要修改所有鸭子的fly()行为，那么需要修改很多地方。
 
 ##### 策略模式的设计：p22图
+
+![p22图](/images/design-pattern/p22.png)
 
 ### 设计原则
 
