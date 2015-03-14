@@ -49,7 +49,8 @@ tag: [设计模式]
 
 ![p67图](/images/design-pattern/p67.png)
 
-*PS：在调用notifyObservers(...)前要调用setChanged()来标记状态已改变。*
+PS：在调用notifyObservers(...)前要调用setChanged()来标记状态已改变。<br/>
+setChanged()方法可以让你在更新观察者时有更多弹性，你可以更适当的观察观察者。比如，当温度变化半度以上时才更新布告板。
 
 #### java.util.Observable的黑暗面
 
