@@ -52,9 +52,9 @@ tag: [设计模式]
 
 #### 4.抽象工厂模式的设计：p157图，p152代码，p147代码
 
-![p152图](/images/design-pattern/p152.png)
-
 ![p147图](/images/design-pattern/p147.png)
+
+![p152图](/images/design-pattern/p152.png)
 
 ![p157图](/images/design-pattern/p157.png)
 
@@ -75,6 +75,7 @@ PS：上面的例子中，参数type应该改为常量或者枚举。
 1. 不能让高层组件依赖低层组件。
 2. 不管高层或低层组件，两者都应该依赖于抽象。
 3. 同很多原则一样，应该尽量达到，但不是随时都要遵守。详见p143.
+
 这个原则比较抽象，原文解释比较长，在p139.
 
 
