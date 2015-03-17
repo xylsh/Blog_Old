@@ -37,7 +37,9 @@ tag: [设计模式]
 
 ### 比较工厂方法模式和抽象工厂模式：p160图,p161图
 
+工厂方法：<br />
 ![p160图](/images/design-pattern/p160.png)<br/>
+抽象工厂：<br />
 ![p160图](/images/design-pattern/p160.png)
 
 1. 抽象工厂的方法经常以工厂方法的方式实现。
