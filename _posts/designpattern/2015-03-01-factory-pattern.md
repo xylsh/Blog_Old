@@ -40,7 +40,7 @@ tag: [设计模式]
 工厂方法：<br />
 ![p160图](/images/design-pattern/p160.png)<br/>
 抽象工厂：<br />
-![p160图](/images/design-pattern/p160.png)
+![p161图](/images/design-pattern/p161.png)
 
 1. 抽象工厂的方法经常以工厂方法的方式实现。
 2. 二者异同（对话形式）：p158.
