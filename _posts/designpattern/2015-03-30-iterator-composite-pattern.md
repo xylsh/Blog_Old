@@ -28,10 +28,9 @@ tag: [设计模式]
 
 ![p359图](/images/design-pattern/p359.png)
 
-Menu类的print():
 ![p360图](/images/design-pattern/p360.png)
 
-Menu类的println():p363
+Menu类的print():p363
 ![p363图](/images/design-pattern/p363.png)
 
 #### 组合模式要管理层次结构，还要执行菜单的操作，违背了单一责任原则。
