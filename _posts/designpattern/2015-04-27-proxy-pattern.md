@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "第二章：观察者模式 - Head First 设计模式"
+title: "第十一章：代理模式 - Head First 设计模式"
 categories:
 - 设计模式
 tag: [设计模式]
